@@ -1,11 +1,36 @@
 @font-face {
-    font-family: 'product';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  font-family: 'product';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
 
-*{font-family: product;}
+* {
+  font-family: product;
+}
 
-h1{color: red;}
+h1 {
+  color: white;
+}
 
+body {
+  background-color: lightblue;
+}
+
+.card {
+  height: 300px;
+  width: 180px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  h1{
+    //background-color: black;
+    //padding: 5px;
+  }
+}
